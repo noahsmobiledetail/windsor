@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah's Detailing Windsor - Professional Car Detailing Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Professional car detailing services in Windsor. Exterior washing, interior cleaning, paint correction, ceramic coating and more.">
+</head>
+<body id="top">
+
+    <div class="video-background">
+        <video autoplay loop muted playsinline poster="assets/poster-image.jpg">
+            <source src="assets/car_detailing_header.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <header class="site-header">
+        <div class="container">
+            <!-- Reverted back to text-based h1 title -->
+            <h1><a href="#top" style="color: inherit; text-decoration: none;">Noah's Detailing Windsor</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#client-stats">Clients</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="add-ons.html">Add-Ons</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Mobile Car Detailing Services</h2>
+            <p>We come to you anywhere in Windsor & Essex County - bringing your vehicle back to showroom condition at your location.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn primary-btn">Book Now</a>
+                <a href="#pricing" class="btn secondary-btn">Our Packages</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-image slide-in-left animate-on-scroll">
+                    <img src="noah-working.jpg" alt="Noah working on a vehicle with foam detailing">
+                </div>
+                <div class="about-text slide-in-right animate-on-scroll">
+                    <h3>Windsor's Premier Mobile Auto Detailing Service</h3>
+                    <p>At Noah's Detailing Windsor, we bring professional car detailing directly to your location anywhere in Windsor & Essex County. With years of experience and a commitment to excellence, we treat every vehicle as if it were our own - right in your driveway, workplace, or wherever is convenient for you.</p>
+                    <p>Using only premium products and state-of-the-art mobile equipment, we ensure your vehicle receives the care and attention it deserves without you having to leave your location. From basic washes to complete detail packages and ceramic coatings, we have the expertise to make your car look its absolute best.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Premium Products</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Experienced Technicians</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Satisfaction Guaranteed</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Mobile Detailing Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Client Counter Section -->
+    <section id="client-stats" class="client-stats">
+        <div class="container">
+            <h2 class="section-title">Happy Clients Served</h2>
+            <div class="client-stats-content">
+                <div class="client-stats-card">
+                    <div id="clientCount" class="client-count-number">0</div>
+                    <p class="client-count-text">Vehicles Detailed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End New Client Counter Section -->
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="exterior">Exterior</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="ceramic">Ceramic Coating</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item slide-in-right animate-on-scroll" data-category="exterior">
+                    <div class="gallery-img">
+                        <img src="ExteriorWash.jpg" alt="Red Chrysler Sedan Exterior Wash">
+                    </div>
+                    <div class="gallery-caption" style="text-align: center; margin-top: 10px;">
+                        <h4>Exterior Detail</h4>
+                        <p>Chrysler 200 Sedan - Professional Exterior Detailing</p>
+                    </div>
+                </div>
+                <div class="gallery-item slide-in-right animate-on-scroll" data-category="exterior">
+                    <div class="gallery-img">
+                        <img src="HeadlightResto1.jpg" alt="Exterior Detailing Before/After">
+                    </div>
+                    <div class="gallery-caption" style="text-align: center; margin-top: 10px;">
+                        <h4>Headlight Restoration</h4>
+                        <p>Chrysler 200 - Thorough Headlight Restoration</p>
+                    </div>
+                </div>
+                <div class="gallery-item slide-in-right animate-on-scroll" data-category="interior">
+                    <div class="gallery-img">
+                        <div class="before-after-slider">
+                            <div class="before-image">
+                                <img src="Interior200dirty.jpg" alt="Interior Before Detailing">
+                            </div>
+                            <div class="after-image">
+                                <img src="200InteriorAfter.jpg" alt="Interior After Detailing">
+                            </div>
+                            <div class="slider-handle">
+                                <i class="fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption" style="text-align: center; margin-top: 10px;">
+                        <h4>Interior Detail</h4>
+                        <p>Chrysler 200 - Complete Interior Restoration</p>
+                        <p><em>Drag the slider to see before & after</em></p>
+                    </div>
+                </div>
+                <div class="gallery-item slide-in-right animate-on-scroll" data-category="ceramic">
+                    <div class="gallery-img">
+                        <div class="before-after-slider">
+                            <!-- Swapped before and after images -->
+                            <div class="before-image">
+                                <img src="PaintCoatingAfter.jpg" alt="Paint After Coating">
+                            </div>
+                            <div class="after-image">
+                                <img src="PaintCoatingBefore.jpg" alt="Paint Before Coating">
+                            </div>
+                            <div class="slider-handle">
+                                <i class="fas fa-chevron-left"></i>
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption" style="text-align: center; margin-top: 10px;">
+                        <h4>Scratch Removal</h4>
+                        <p>ST - Professional Removal and Ceramic Coating</p>
+                        <p><em>Drag the slider to see before & after</em></p>
+                    </div>
+                </div>
+
+                <div class="gallery-item slide-in-right animate-on-scroll" data-category="ceramic">
+                    <div class="gallery-img">
+                        <img src="CeramicCoating1.jpg" alt="Ceramic Coating Application">
+                    </div>
+                    <div class="gallery-caption" style="text-align: center; margin-top: 10px;">
+                        <h4>Ceramic Coating</h4>
+                        <p>2018 Ford ST - 9-Year Ceramic Coating + Full Polish</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Our Packages</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card slide-in-left animate-on-scroll">
+                    <div class="pricing-header">
+                        <h3>Basic Package</h3>
+                        <div class="pricing-price">
+                            <span class="price">$120</span>
+                            <span class="period">Starting at</span>
+                        </div>
+                        <div class="pricing-duration">1.5-2 hours</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Exterior wash</li>
+                            <li><i class="fas fa-check"></i> Interior vacuum</li>
+                            <li><i class="fas fa-check"></i> Dashboard & console wipe down</li>
+                            <li><i class="fas fa-check"></i> Glass cleaning</li>
+                            <li><i class="fas fa-check"></i> Tire shine</li>
+                            <li><i class="fas fa-check"></i> Floor mat cleaning</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="pricing-card slide-in-bottom animate-on-scroll">
+                    <div class="pricing-header">
+                        <h3>Premium Package</h3>
+                        <div class="pricing-price">
+                            <span class="price">$170</span>
+                            <span class="period">Starting at</span>
+                        </div>
+                        <div class="pricing-duration">2-3 hours</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Exterior wash</li>
+                            <li><i class="fas fa-check"></i> Interior clean and conditioning</li>
+                            <li><i class="fas fa-check"></i> Carpet and seats shampoo</li>
+                            <li><i class="fas fa-check"></i> Steam cleaning</li>
+                            <li><i class="fas fa-check"></i> Glass cleaning</li>
+                            <li><i class="fas fa-check"></i> Rubber & carpet floor mat cleaning</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured slide-in-right animate-on-scroll">
+                    <div class="pricing-badge">Popular</div>
+                    <div class="pricing-header">
+                        <h3>Factory Reset</h3>
+                        <div class="pricing-price">
+                            <span class="price">$250</span>
+                            <span class="period">Starting at</span>
+                        </div>
+                        <div class="pricing-duration">3-4 hours</div>
+                        <div class="pricing-special">FREE Salt Removal</div>
+                    </div>
+                    <div class="pricing-body">
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Exterior wash & plastic/vinyl treatment</li>
+                            <li><i class="fas fa-check"></i> Engine wash</li>
+                            <li><i class="fas fa-check"></i> Paint/Wheel decontamination</li>
+                            <li><i class="fas fa-check"></i> Carpet & seats shampoo</li>
+                            <li><i class="fas fa-check"></i> Steam cleaning & pet hair removal</li>
+                            <li><i class="fas fa-check"></i> Glass cleaning & interior conditioning</li>
+                            <li><i class="fas fa-check"></i> Rubber & carpet floor mat cleaning</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more-packages">
+                <a href="add-ons.html" class="btn secondary-btn">
+                    <span>View Premium Add-Ons</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="pricing-note">
+                <p>* Prices may vary based on vehicle size and condition. Contact us for a personalized quote.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Noah's Detailing transformed my 5-year-old car into something that looks brand new! The attention to detail was incredible, and they took care of every spot I was concerned about. Highly recommend their ceramic coating service!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/80x80" alt="Michael Johnson">
+                            <div class="author-info">
+                                <h4>Michael Johnson</h4>
+                                <p>Windsor, ON</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"I had coffee spilled all over my cloth seats and thought they were ruined. Noah's team worked magic and got them looking better than before the spill! Their interior detailing is worth every penny."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/80x80" alt="Sarah Williams">
+                            <div class="author-info">
+                                <h4>Sarah Williams</h4>
+                                <p>LaSalle, ON</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"As a car enthusiast, I'm very particular about who touches my vehicles. Noah's Detailing is the only place I trust in Windsor. Their paint correction work is flawless, and the ceramic coating has kept my car looking amazing for over a year now."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://placehold.co/80x80" alt="David Chen">
+                            <div class="author-info">
+                                <h4>David Chen</h4>
+                                <p>Tecumseh, ON</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="testimonial-dot active" data-slide="0"></span>
+                        <span class="testimonial-dot" data-slide="1"></span>
+                        <span class="testimonial-dot" data-slide="2"></span>
+                    </div>
+                    <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <div class="contact-content">
+                <div class="contact-info slide-in-left animate-on-scroll">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Service Area</h3>
+                            <p>Mobile service throughout Windsor & Essex County</p>
+                            <p><strong>We come to you!</strong></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Thursday: 6pm - 8pm</p>
+                            <p>Friday: 4pm - 8pm</p>
+                            <p>Saturday - Sunday: All Day</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>(226) 260-7552</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>noahrocetes1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container slide-in-right animate-on-scroll">
+                    <!-- Google Forms Embed Code Goes Here -->
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdidwA9W-xNCaWGTmrjS4d79QI70FPNiDa_LvkzSckeXmh8YA/viewform?embedded=true" width="100%" height="1521" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <!-- End Google Forms Embed Code -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Noah's Detailing Windsor</h3>
+                    <p>Professional Auto Detailing Services</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Get Special Offers</h4>
+                    <p>Subscribe to our newsletter for exclusive deals and car care tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Noah's Detailing Windsor. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
